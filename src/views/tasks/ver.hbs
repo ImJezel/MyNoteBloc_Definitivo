@@ -1,0 +1,23 @@
+  <link rel="stylesheet" href="https://cdn.discordapp.com/attachments/1032524233093423114/1126960229679120475/ver.css">
+
+<div class="header">
+  <a href="/tasks">
+    <h1 class="title">My Notes</h1>
+  </a>
+  <a href="/tasks" class="btn">Mis Notas</a>
+</div>
+
+<div class="contenedor-ver">
+
+    {{#each tasks}}
+    <div class="card">
+    <h2 class="card-title">{{title}}</h2>
+
+    <div class="contenedor-descripciones">
+        <p class="card-description">{{description}}</p>
+    </div>
+    
+    </div>
+    {{/each}}
+
+</div>
