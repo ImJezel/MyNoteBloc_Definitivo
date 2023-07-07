@@ -41,7 +41,7 @@ app.get('/', (req,res) => {
     res.render('home');
 });
 
-app.use(express.static('/public'));
+app.use(express.static('public'));
 
 
 app.use('/', tasksRoutes)
